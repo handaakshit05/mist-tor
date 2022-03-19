@@ -1,0 +1,14 @@
+
+@keyframes drop-up {
+    from {
+        transform: translateY(2rem);
+        opacity: 0%;
+    } to {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+.modal-trans {
+    animation: drop-up 500ms linear; 
+}

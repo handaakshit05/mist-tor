@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+
+.wrapper {
+    background: linear-gradient(44.88deg, #490260 50.39%, #7D4696 85.3%), #7D4696;
+    background-size: cover;
+}
+
+.wake-up {
+    font-family: 'Zilla Slab', serif;
+}

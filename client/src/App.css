@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.reem {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.login-card {
+    height: 200px;
+    width: 490px;
+    background-size: contain;
+    background-image: url("./assets/landing/login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes drop-in {
+    from {
+        transform: translateY(2rem);
+        opacity: 0%;
+    } to {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+.input-trans {
+    animation: drop-in 500ms linear; 
+}
+
+@media only screen and (max-width: 812px) {
+    .login-card {
+        height: 200px;
+        width: 380px;
+    }
+}
